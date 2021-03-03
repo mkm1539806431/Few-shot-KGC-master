@@ -51,7 +51,7 @@ def training(train_dataset, dev_dataset, test_dataset, model, hyp):
 def run(hyp):
     if hyp.seed is not None:
         fix_random_seeds(int(hyp.seed))
-
+###
     if hyp.idx_device == -1 or not T.cuda.is_available():
         hyp.device = T.device("cpu")
     else:
