@@ -56,7 +56,7 @@ def run(hyp):
         hyp.device = T.device("cpu")
     else:
         hyp.device = T.device("cuda:{}".format(hyp.idx_device))
-    ## 加载原始数据，字典数据类型，
+    ## 加载原始数据，字典数据类型，{r:(h,t)}
     train_task, dev_task, test_task, ent_dscps, rel_dscps, i2r, w2i, i2w, rel2cand, e1rel_e2 = load_raw_pkl(hyp)
 
     hyp.dict_size = len(i2w)
