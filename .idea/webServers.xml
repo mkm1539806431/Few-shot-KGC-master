@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8a144020-047b-4ef0-bd16-e2e26e57ee54" name="10.181.6.134">
+        <fileTransfer rootFolder="/home/makunming" accessType="SFTP" host="10.181.6.134" port="9333" sshConfigId="038d5890-c141-474b-8d92-749001e62400" sshConfig="10.181.6.134">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
